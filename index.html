@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yechu Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-3 text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Yechu Quiz</h2>
+      <h3 class="text-primary display-10 my-4">How well do you know about Yechu? </h3>
+    </div>
+  </div>
+
+  <div class="result py-4 d-none text-center">
+      <div class="container lead ">
+          <p>You know <span class="text-primary display-4 p-3">0%</span> about Yechu</p>
+      </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-secondary">
+    <div class="container">
+      <h2 class="my-5 text-white">On with the questions...</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. What season does she like? (if you must choose...)</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">winter</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">summer</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. What would she do when she doesn't want to answer the phone call?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">don't answer</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">answer the phone (but not happy with it and you wouldn't know ~.~)</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. When she's hungry, she would get some...</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">salad </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">snack</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4.If she can reborn, she would choose to be ... </p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">A bird</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">A cloud</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light"> 
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
